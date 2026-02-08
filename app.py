@@ -173,13 +173,13 @@ if st.button("Predict", type="primary"):
     
     st.success(f"Predicted Adsorption Capacity: {prediction:.4f} mg/g")
     
-    st.markdown("---")
+    # st.markdown("---")
     
-    st.subheader("Input Summary")
+    # st.subheader("Input Summary")
     
-    input_df = pd.DataFrame({
-        'Feature': features,
-        'Input Value': [input_data[f] for f in features]
-    })
+    # input_df = pd.DataFrame({
+    #     'Feature': features,
+    #     'Input Value': [input_data[f] for f in features]
+    # })
     
-    st.dataframe(input_df, use_container_width=True)
+    # st.dataframe(input_df, use_container_width=True)
