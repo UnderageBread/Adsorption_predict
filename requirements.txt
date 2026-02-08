@@ -4,3 +4,4 @@ numpy==1.26.0
 openpyxl==3.1.2
 scikit-learn==1.7.2
 lightgbm
+xgboost
